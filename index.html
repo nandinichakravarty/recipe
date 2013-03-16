@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Indian Recipe Today</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<!--<link rel="stylesheet" type="text/css" media="all" href="http://www.kolkatatoday.com/kolkatatoday_apps/wp-content/themes/kol_apps/style.css" />-->
+<link href="css/mantle.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+<link href="css/screen.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+ 
+ <!--[if lt IE 9]>
+  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+		<div id="wrapper">
+                    <div class="photo">
+                    </div><!--photo div ends-->
+                    
+                    <div id="container">
+                      <header>
+                            <div class="logo"> <a href="#"><img src="images/recipe-logo.png" alt="recipe logo" title="recipe logo" /></a>
+                            </div><!--logo div ends--> 
+                        <nav class="clearfix">
+                        	<ul class="clearfix">
+                            	<li><a href="#">Home</a></li>        
+                                <li><a href="#">About us</a></li>       
+                                <li><a href="#">Latest Recipes</a></li>      
+                                <li><a href="#">Most Popular</a></li>    
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                            <a href="#" id="pull">Menu</a>
+                        </nav>
+                      </header>  
+                      <section>
+                   		<div id="header">
+                       		  <div class="wrap" style="1px solid #000;">
+                                    	<div id="slide-holder">
+                                        		<div id="slide-runner">
+                                                		<a href=""><img id="slide-img-2" src="images/mantle1.jpg" class="slide" alt=""></a>
+                                               			<a href=""><img id="slide-img-3" src="images/mantle2.jpg" class="slide" alt=""></a>
+                                                		<a href=""><img id="slide-img-4" src="images/mantle3.jpg" class="slide" alt=""></a>
+                                                		<a href=""><img id="slide-img-5" src="images/mantle4.jpg" class="slide" alt=""></a>
+                                                        <div id="slide-controls">
+                                                			<span></span><p id="slide-desc" class="text"></p>
+                                        				</div><!--slide ontrol ends-->
+                                                </div><!--slide runner ends-->
+                                        </div><!--slide holder ends-->
+                                    
+                          </div><!--wrap div ends-->
+                        </div><!--header div ends-->
+                      
+                      </section>  
+                      
+                      <section class="white">
+                      		
+                            	<ul>
+                                    <li>
+                                        <div class="inside">
+                                        	<h2>Chicken Sukka</h2>
+                                        	<div class="inside_image"><img src="images/chicken-sukka.JPG" alt="Chicken Sukka" title="Chicken Sukka" /></div><!--inside_image ends-->
+                                            <p><span class="ingre">Ingredients:</span><br>
+                                                Chicken - 1 lb (1/2 kg)<br>
+                                                Onion - 1/2 ( diced in medium sized pieces)<br>
+                                                Red Chilly powder - 1 tsp<br>
+                                                                                             
+                                             </p>
+                                            <div class="read-more">
+                                                	<a href="#">Read More</a>
+                                            </div><!--read more ends-->
+                                        </div><!--inside div ends-->
+                                    </li>
+                                    
+                                    <li>
+                                    	<div class="inside">
+                                        	<h2>Lemon Rice</h2>
+                                        	<div class="inside_image"><img src="images/lemon-rice.jpg" alt="lemon rice" title="lemon rice"/></div><!--inside_image ends-->
+                                            	<p><span class="ingre">Ingredients:</span><br>
+                                                1 cup long grained rice<br>
+                                                1-2 green chilies, finely chopped<br>
+                                                1 inch piece ginger, peeled and finely chopped<br>
+                                                                                        
+                                             </p>
+                                            <div class="read-more">
+                                                	<a href="#">Read More</a>
+                                            </div><!--read more ends-->
+                                        </div><!--inside div ends-->                       
+                                    </li>
+                                    
+                                    <li>
+                                    <div class="inside">
+                                        	<h2>Dinner</h2>
+                                        	<div class="inside_image"><img src="images/gulab_jamun_2_0001.jpg" alt="Dinner Recipe" title="Dinner Recipe"/></div><!--inside_image ends-->
+                                            <p>
+                                            	<span class="ingre">Ingredients:</span><br>
+                                                1 no lemon slice<br>
+                                                1 L water<br>
+                                                <br>
+                                                  
+				                           </p>
+                                            <div class="read-more">
+                                                	<a href="#">Read More</a>
+                                            </div><!--read more ends-->
+                                        </div><!--inside div ends-->    
+                                    </li>
+                                   
+								</ul>
+                           
+                      </section>
+
+                      <section class="content" >
+                      		<div class="leftbar">
+                            	
+                                	<div class="leftbartext">
+                                		<div class="leftbarpic">
+                                    	<img src="images/sarnali-small.png" title=" sarnali" alt="chef recipe">
+                                    	</div><!--left sidebar pic ends-->
+                                    	<h2>Welcome</h2>
+                                        <p>
+                                        	<span class="highlight">Indian cuisine encompasses a wide variety of regional cuisines native to India. </span>
+                                            <br/>
+                                            <br/>
+                                            
+											Indian cuisine encompasses a wide variety of regional cuisines native to India. Given the range of diversity in soil type, climate and occupations, these cuisines vary significantly from each other and use locally available spices, herbs, meat, vegetables, and fruits. Indian food is also heavily influenced by religious and cultural choices.<br/><br/>
+
+The development of these cuisines have been shaped by Hindu and Jain beliefs, and in particular by vegetarianism...
+									  <div class="read-more2">
+                                                	<a href="#">Read More</a>
+                                      </div><!--read more ends--> 
+										</p>
+                              </div><!--left bar text ends-->
+                                        <div class="leftbartext">
+                                        	
+                                        		<ul>
+                                                	<h3>Most Popular</h3>
+                                                        <li>
+                                                            <div class="inside">
+                                                                <h4>Biryani</h4>
+                                                                <div class="inside_image"><img src="images/biryani.jpg" alt="biryani" title="biryani" /></div><!--inside_image ends-->
+                                                                <p> Here is something special - Biryani without meat, delicately flavoured with saffron and spices.                                                                </p>
+                                                                <div class="read-more2">
+                                                                        <a href="#">Recipe</a>
+                                                                </div><!--read more ends-->
+                                                            </div><!--inside div ends-->
+                                                        </li>
+                                    
+                                                        <li>
+                                                            <div class="inside">
+                                                                <h4>Chole</h4>
+                                                                <div class="inside_image"><img src="images/eating_large.jpg" alt="chole" title="chole"/></div><!--inside_image ends-->
+                                                                <p> Chole bhatureis a combination of chole (spicy chick peas) and fried bread called bhatoora (made of maida flour).
+                                                                </p>
+                                                                <div class="read-more2">
+                                                                        <a href="#">Recipe</a>
+                                                                </div><!--read more ends-->
+                                                            </div><!--inside div ends-->                       
+                                                        </li>
+                                    
+                                                        <li>
+                                                            <div class="inside">
+                                                                <h4>Dosa</h4>
+                                                                <div class="inside_image"><img src="images/mdosa.jpg" alt="dosa" title="dosa" /></div><!--inside_image ends-->
+                                                                <p> Dosa, the traditional favourite of the south, has now become a versatile dish that dots tables around the world.
+                                                                </p>
+                                                                <div class="read-more2">
+                                                                        <a href="#">Recipe</a>
+                                                                </div><!--read more ends-->
+                                                            </div><!--inside div ends-->    
+                                                        </li>
+												</ul>
+                                        
+                                    </div><!--left bar text ends-->
+                            </div><!--left sidebar div ends-->
+                            <div class="rightbar">
+                            	<h3>Features Recipes</h3>
+                                <p>
+                                	<ul>
+                                    	<li>
+                                        	<div class="rightbarpic">
+                                            	<img src="images/fishes.jpg" alt="featured recipe1" title="featured recipe1" />
+                                            </div><!--rightbarpic ends-->
+                                            <div class="rightbartext">
+                                            	<h4>Ajwaini Aloo Shimla Mirch</h4>
+                                                <p>Heat oven to 325°F. Spread bread cubes... 
+                                                	<div class="read-more2">
+                                                        <a href="#">Recipe</a>
+                                                     </div><!--read more ends-->  
+                                                </p>
+                                            </div><!--rightbartext ends-->
+                                        </li>
+                                        
+                                        	<li>
+                                            	<div class="rightbarpic">
+                                            		<img src="images/15543.jpg" alt="featured recipe1" title="featured recipe1" />
+                                            	</div><!--rightbarpic ends-->
+                                            	<div class="rightbartext">
+                                            		<h4>Ajwaini Aloo Shimla Mirch</h4>
+                                                	<p>Heat oven to 325°F. Spread bread cubes... 
+                                                		<div class="read-more2">
+                                                        	<a href="#">Recipe</a>
+                                                     	</div><!--read more ends-->  
+                                                	</p>
+                                            	</div><!--rightbartext ends-->
+                                        	</li>
+                                            
+                                            
+                                            <li>
+                                            	<div class="rightbarpic">
+                                            		<img src="images/biryani.gif" alt="featured recipe1" title="featured recipe1" />
+                                            	</div><!--rightbarpic ends-->
+                                            	<div class="rightbartext">
+                                            		<h4>Ajwaini Aloo Shimla Mirch</h4>
+                                                	<p>Heat oven to 325°F. Spread bread cubes... 
+                                                		<div class="read-more2">
+                                                        	<a href="#">Recipe</a>
+                                                     	</div><!--read more ends-->  
+                                                	</p>
+                                            	</div><!--rightbartext ends-->
+                                        	</li>
+                                            
+                                            
+                                            <li>
+                                            	<div class="rightbarpic">
+                                            		<img src="images/fishes.jpg" alt="featured recipe1" title="featured recipe1" />
+                                            	</div><!--rightbarpic ends-->
+                                            	<div class="rightbartext">
+                                            		<h4>Ajwaini Aloo Shimla Mirch</h4>
+                                                	<p>Heat oven to 325°F. Spread bread cubes... 
+                                                		<div class="read-more2">
+                                                        	<a href="#">Recipe</a>
+                                                     	</div><!--read more ends-->  
+                                                	</p>
+                                            	</div><!--rightbartext ends-->
+                                        	</li>
+                                            
+                                            
+                                            
+                                             <li>
+                                            	<div class="rightbarpic">
+                                            		<img src="images/biryani.gif" alt="featured recipe1" title="featured recipe1" />
+                                            	</div><!--rightbarpic ends-->
+                                            	<div class="rightbartext">
+                                            		<h4>Ajwaini Aloo Shimla Mirch</h4>
+                                                	<p>Heat oven to 325°F. Spread bread cubes... 
+                                                		<div class="read-more2">
+                                                        	<a href="#">Recipe</a>
+                                                     	</div><!--read more ends-->  
+                                                	</p>
+                                            	</div><!--rightbartext ends-->
+                                        	</li>
+                                            
+                                    </ul>
+                                </p>
+                            </div><!--featured recipe ends-->
+                      </section>
+                      
+                    </div> <!--container div ends-->
+                    
+                    <div class="photo1"></div><!-- div containing the right red Bg ends-->
+                        
+            </div><!--wrapper div ends-->
+            <div id="footer">
+            	<ul class="footer1">	
+                	<li><a href="index.html">Home</a> </li>     
+                    <li><a href="#">About us</a></li>      
+                    <li><a href="#">Latest Recipes</a></li>      
+                    <li><a href="#">Most popular</a></li>     
+                    <li><a href="#">Contact Us</a></li>
+                    <p>Copyright © 2013 India Recipes. All rights are reserved </br>
+SIte designed & maintained by kolkatatoday.com</p>
+                </ul>
+                
+            </div>
+            
+	<script src="js/modernizr.js"></script>
+	<script src="js/script.js"></script>
+    <script>
+if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"","desc":""},{"id":"slide-img-2","client":"","desc":""},{"id":"slide-img-3","client":"","desc":""},{"id":"slide-img-4","client":"","desc":""},{"id":"slide-img-5","client":"","desc":""},{"id":"slide-img-6","client":"","desc":""},{"id":"slide-img-7","client":"","desc":""}];
+</script>
+</body>
+</html>
